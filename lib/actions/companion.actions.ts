@@ -20,6 +20,7 @@ export const createCompanion = async (formData: CreateCompanion) => {
 
 export const getAllCompanions = async ({ limit = 10, page = 1, subject, topic }: GetAllCompanions) => {
     const supabase = createSupabaseClient();
+    const { userId } = await auth();
 
     let query = supabase.from('companions').select();
 
