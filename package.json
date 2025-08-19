@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.31.1",
+    "@clerk/nextjs": "^6.31.2",
     "@hookform/resolvers": "^5.2.1",
+    "@jsmastery/utils": "^1.0.2",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-slot": "^1.2.3",
+    "@sentry/nextjs": "^10.5.0",
     "@supabase/supabase-js": "^2.55.0",
     "@vapi-ai/web": "^2.3.8",
     "class-variance-authority": "^0.7.1",
